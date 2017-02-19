@@ -1,0 +1,35 @@
+{
+  "name": "gtfs-mongoose",
+  "version": "0.0.1",
+  "description": "Mongoose models for General Transit Feed Specification (GTFS) static data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/istanbul cover jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klandell/gtfs-mongoose.git"
+  },
+  "keywords": [
+    "gtfs",
+    "mongoose",
+    "mongodb",
+    "node.js"
+  ],
+  "author": "Kyle Landell <kyle.landell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klandell/gtfs-mongoose/issues"
+  },
+  "homepage": "https://github.com/klandell/gtfs-mongoose#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "mongoose": "^4.8.3"
+  }
+}
