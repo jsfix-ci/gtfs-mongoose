@@ -4,7 +4,7 @@ engines:
     channel: "eslint-3"
     checks:
       import/no-unresolved:
-      enabled: false
+        enabled: false
 ratings:
    paths:
    - "**.js"
