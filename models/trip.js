@@ -8,7 +8,6 @@ const Trip = mongoose.model('Trip', new mongoose.Schema({
     },
     service_id: {
         type: String,
-        unique: true,
         required: true,
     },
     trip_id: {

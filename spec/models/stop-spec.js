@@ -57,7 +57,6 @@ describe('stop', function () {
         'stop_lat',
         'stop_lon',
         'location_type',
-        'parent_station',
         'wheelchair_boarding',
     ]
     .forEach(function (field) {

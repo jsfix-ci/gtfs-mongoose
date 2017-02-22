@@ -62,7 +62,6 @@ describe('trip', function () {
     });
 
     [
-        'service_id',
         'trip_id',
     ]
     .forEach(function (field) {
