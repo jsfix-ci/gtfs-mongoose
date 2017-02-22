@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const Shape = mongoose.model('Shape', new mongoose.Schema({
     shape_id: {
         type: String,
-        unique: true,
         required: true,
     },
     shape_pt_lat: {

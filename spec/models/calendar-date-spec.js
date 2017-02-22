@@ -48,15 +48,6 @@ describe('calendar-date', function () {
 
     [
         'service_id',
-    ]
-    .forEach(function (field) {
-        it(`should require that field ${field} is unique`, function () {
-            expect(m.schema.paths[field].options.unique).toBe(true);
-        });
-    });
-
-    [
-        'service_id',
         'date',
         'exception_type',
     ]

@@ -53,15 +53,6 @@ describe('shape', function () {
 
     [
         'shape_id',
-    ]
-    .forEach(function (field) {
-        it(`should require that field ${field} is unique`, function () {
-            expect(m.schema.paths[field].options.unique).toBe(true);
-        });
-    });
-
-    [
-        'shape_id',
         'shape_pt_lat',
         'shape_pt_lon',
         'shape_pt_sequence',

@@ -62,7 +62,6 @@ describe('trip', function () {
     });
 
     [
-        'route_id',
         'service_id',
         'trip_id',
     ]

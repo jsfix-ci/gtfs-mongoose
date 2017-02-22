@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const CalendarDate = mongoose.model('CalendarDate', new mongoose.Schema({
     service_id: {
         type: String,
-        unique: true,
         required: true,
     },
     date: {

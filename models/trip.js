@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const Trip = mongoose.model('Trip', new mongoose.Schema({
     route_id: {
         type: String,
-        unique: true,
         required: true,
     },
     service_id: {

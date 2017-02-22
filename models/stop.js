@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const Stop = mongoose.model('Stop', new mongoose.Schema({
     stop_id: {
         type: String,
-        unique: true,
         required: true,
     },
     stop_code: String,
@@ -30,8 +29,6 @@ const Stop = mongoose.model('Stop', new mongoose.Schema({
     },
     parent_station: {
         type: Number,
-        min: 0,
-        max: 1,
     },
     stop_timezone: String,
     wheelchair_boarding: {

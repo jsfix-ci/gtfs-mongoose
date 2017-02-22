@@ -67,15 +67,6 @@ describe('stop', function () {
 
     [
         'stop_id',
-    ]
-    .forEach(function (field) {
-        it(`should require that field ${field} is unique`, function () {
-            expect(m.schema.paths[field].options.unique).toBe(true);
-        });
-    });
-
-    [
-        'stop_id',
         'stop_name',
         'stop_lat',
         'stop_lon',
@@ -103,7 +94,6 @@ describe('stop', function () {
     });
 
     [
-        'parent_station',
         'location_type',
     ]
     .forEach(function (field) {
