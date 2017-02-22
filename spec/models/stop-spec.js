@@ -44,6 +44,7 @@ describe('stop', function () {
         'stop_desc',
         'zone_id',
         'stop_url',
+        'parent_station',
         'stop_timezone',
     ]
     .forEach(function (field) {

@@ -27,9 +27,7 @@ const Stop = mongoose.model('Stop', new mongoose.Schema({
         min: 0,
         max: 1,
     },
-    parent_station: {
-        type: Number,
-    },
+    parent_station: String,
     stop_timezone: String,
     wheelchair_boarding: {
         type: Number,
