@@ -7,6 +7,7 @@ module.exports = {
     FareRule: require('./fare-rule'),
     FeedInfo: require('./feed-info'),
     Frequency: require('./frequency'),
+    Realtime: require('./realtime'),
     Route: require('./route'),
     Shape: require('./shape'),
     StopTime: require('./stop-time'),
