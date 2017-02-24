@@ -34,5 +34,11 @@ const Stop = mongoose.model('Stop', new mongoose.Schema({
         min: 0,
         max: 2,
     },
+    // fields not part of the specs, added to make life easier
+    loc: {
+        type: [Number], // [<longitude>, <latitude>]
+        index: '2dsphere',
+    },
+    routes: [String],
 }));
 module.exports = Stop;
