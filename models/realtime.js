@@ -5,6 +5,10 @@ const Realtime = mongoose.model('Realtime', new mongoose.Schema({
         type: String,
         required: true,
     },
+    train: {
+        type: String,
+        required: true,
+    },
     arrivalTime: Date,
     departureTime: Date,
     scheduledTrack: Number,
