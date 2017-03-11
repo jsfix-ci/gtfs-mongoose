@@ -1,6 +1,6 @@
 {
   "name": "gtfs-mongoose",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Mongoose models for General Transit Feed Specification (GTFS) static data",
   "main": "index.js",
   "scripts": {
