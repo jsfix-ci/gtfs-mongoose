@@ -4,6 +4,7 @@ const Realtime = mongoose.model('Realtime', new mongoose.Schema({
     stopId: {
         type: String,
         required: true,
+        index: true,
     },
     train: {
         type: String,

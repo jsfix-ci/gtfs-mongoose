@@ -4,7 +4,7 @@ const gtfsModels = require('../index');
 describe('index', function () {
     it('should have an object property of the mongoose models', function () {
         expect(gtfsModels.models).toEqual(jasmine.any(Object));
-        expect(Object.keys(gtfsModels.models).length).toBe(14);
+        expect(Object.keys(gtfsModels.models).length).toBe(15);
     });
 
     it('should have a model map to tie a gtfs file name to its model', function () {
