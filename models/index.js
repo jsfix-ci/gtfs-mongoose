@@ -10,6 +10,7 @@ module.exports = {
     Realtime: require('./realtime'),
     Route: require('./route'),
     Shape: require('./shape'),
+    Status: require('./status'),
     StopTime: require('./stop-time'),
     Stop: require('./stop'),
     Transfer: require('./transfer'),
