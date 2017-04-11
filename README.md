@@ -7,4 +7,4 @@
 [![David](https://img.shields.io/david/dev/klandell/gtfs-mongoose.svg)](https://david-dm.org/klandell/gtfs-mongoose?type=dev)
 [![npm](https://img.shields.io/npm/l/gtfs-mongoose.svg)](https://github.com/klandell/gtfs-mongoose/blob/master/LICENSE)
 
-Package still in progress!
+Mongoose models for storing GTFS static and realtime data in a mongodb database.
